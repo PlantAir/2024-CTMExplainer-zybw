@@ -1,0 +1,8 @@
+defaults:
+  - _self_
+  - models: tgat
+  - datasets: wikipedia
+  - explainers: ctm5
+device_id: 0
+evaluate: True
+seed: 66

@@ -1,0 +1,504 @@
+2024-08-10 23:36:51,358 - root - INFO - Namespace(data='simulate_v2', bs=200, prefix='tgn-attn', n_degree=10, n_head=2, n_epoch=100, n_layer=2, lr=0.0001, patience=5, n_runs=1, drop_out=0.1, gpu=0, node_dim=100, time_dim=100, backprop_every=1, use_memory=True, embedding_module='graph_attention', message_function='identity', memory_updater='gru', aggregator='last', memory_update_at_end=False, message_dim=100, memory_dim=4, different_new_nodes=False, uniform=False, randomize_features=False, use_destination_embedding_in_message=False, use_source_embedding_in_message=False, dyrep=False)
+2024-08-10 23:36:51,747 - root - INFO - num of training instances: 5872
+2024-08-10 23:36:51,747 - root - INFO - num of batches per epoch: 30
+2024-08-10 23:36:51,747 - root - INFO - start 0 epoch
+2024-08-10 23:37:00,805 - root - INFO - epoch: 0 took 9.06s
+2024-08-10 23:37:00,805 - root - INFO - epoch train mean loss: 0.7327918688456218
+2024-08-10 23:37:00,805 - root - INFO - train acc: 0.5090185185185185, test acc: 0.47916666666666663
+2024-08-10 23:37:00,805 - root - INFO - train ap: 0.4318030806177579, val ap: 0.4534502297162312
+2024-08-10 23:37:00,806 - root - INFO - start 1 epoch
+2024-08-10 23:37:09,852 - root - INFO - epoch: 1 took 9.05s
+2024-08-10 23:37:09,852 - root - INFO - epoch train mean loss: 0.7097035030523936
+2024-08-10 23:37:09,852 - root - INFO - train acc: 0.5065185185185185, test acc: 0.47916666666666663
+2024-08-10 23:37:09,852 - root - INFO - train ap: 0.4299086955178939, val ap: 0.45994795485797557
+2024-08-10 23:37:09,853 - root - INFO - start 2 epoch
+2024-08-10 23:37:18,885 - root - INFO - epoch: 2 took 9.03s
+2024-08-10 23:37:18,885 - root - INFO - epoch train mean loss: 0.700588325659434
+2024-08-10 23:37:18,885 - root - INFO - train acc: 0.5001851851851853, test acc: 0.47916666666666663
+2024-08-10 23:37:18,885 - root - INFO - train ap: 0.4342116662143493, val ap: 0.46384174511588994
+2024-08-10 23:37:18,886 - root - INFO - start 3 epoch
+2024-08-10 23:37:27,924 - root - INFO - epoch: 3 took 9.04s
+2024-08-10 23:37:27,924 - root - INFO - epoch train mean loss: 0.7004956861337026
+2024-08-10 23:37:27,924 - root - INFO - train acc: 0.4977222222222222, test acc: 0.47791666666666666
+2024-08-10 23:37:27,924 - root - INFO - train ap: 0.43901982486636615, val ap: 0.4688686808630296
+2024-08-10 23:37:27,926 - root - INFO - start 4 epoch
+2024-08-10 23:37:36,943 - root - INFO - epoch: 4 took 9.02s
+2024-08-10 23:37:36,943 - root - INFO - epoch train mean loss: 0.7001085917154948
+2024-08-10 23:37:36,943 - root - INFO - train acc: 0.5000555555555555, test acc: 0.47791666666666666
+2024-08-10 23:37:36,943 - root - INFO - train ap: 0.44348973192816854, val ap: 0.4737545941221877
+2024-08-10 23:37:36,944 - root - INFO - start 5 epoch
+2024-08-10 23:37:45,949 - root - INFO - epoch: 5 took 9.01s
+2024-08-10 23:37:45,949 - root - INFO - epoch train mean loss: 0.7003243803977967
+2024-08-10 23:37:45,950 - root - INFO - train acc: 0.5026851851851851, test acc: 0.47916666666666663
+2024-08-10 23:37:45,950 - root - INFO - train ap: 0.44820742273128306, val ap: 0.47920122376129176
+2024-08-10 23:37:45,951 - root - INFO - start 6 epoch
+2024-08-10 23:37:54,915 - root - INFO - epoch: 6 took 8.96s
+2024-08-10 23:37:54,915 - root - INFO - epoch train mean loss: 0.7005146225293477
+2024-08-10 23:37:54,915 - root - INFO - train acc: 0.5015185185185185, test acc: 0.47979166666666667
+2024-08-10 23:37:54,915 - root - INFO - train ap: 0.4538295902441433, val ap: 0.4851881390275051
+2024-08-10 23:37:54,916 - root - INFO - start 7 epoch
+2024-08-10 23:38:03,896 - root - INFO - epoch: 7 took 8.98s
+2024-08-10 23:38:03,896 - root - INFO - epoch train mean loss: 0.6973525802294414
+2024-08-10 23:38:03,896 - root - INFO - train acc: 0.5016851851851852, test acc: 0.47979166666666667
+2024-08-10 23:38:03,896 - root - INFO - train ap: 0.46005109415967016, val ap: 0.4917008017994282
+2024-08-10 23:38:03,897 - root - INFO - start 8 epoch
+2024-08-10 23:38:12,967 - root - INFO - epoch: 8 took 9.07s
+2024-08-10 23:38:12,967 - root - INFO - epoch train mean loss: 0.6987061560153961
+2024-08-10 23:38:12,967 - root - INFO - train acc: 0.5031851851851852, test acc: 0.47979166666666667
+2024-08-10 23:38:12,967 - root - INFO - train ap: 0.46690397589478966, val ap: 0.49881765993452565
+2024-08-10 23:38:12,968 - root - INFO - start 9 epoch
+2024-08-10 23:38:22,042 - root - INFO - epoch: 9 took 9.07s
+2024-08-10 23:38:22,043 - root - INFO - epoch train mean loss: 0.697282338142395
+2024-08-10 23:38:22,043 - root - INFO - train acc: 0.5040185185185185, test acc: 0.47979166666666667
+2024-08-10 23:38:22,043 - root - INFO - train ap: 0.4739970411956788, val ap: 0.5075070305504965
+2024-08-10 23:38:22,044 - root - INFO - start 10 epoch
+2024-08-10 23:38:31,068 - root - INFO - epoch: 10 took 9.02s
+2024-08-10 23:38:31,068 - root - INFO - epoch train mean loss: 0.6965395987033844
+2024-08-10 23:38:31,068 - root - INFO - train acc: 0.5058518518518519, test acc: 0.47979166666666667
+2024-08-10 23:38:31,068 - root - INFO - train ap: 0.4817724912276317, val ap: 0.5154815107919567
+2024-08-10 23:38:31,069 - root - INFO - start 11 epoch
+2024-08-10 23:38:40,180 - root - INFO - epoch: 11 took 9.11s
+2024-08-10 23:38:40,180 - root - INFO - epoch train mean loss: 0.6968362033367157
+2024-08-10 23:38:40,180 - root - INFO - train acc: 0.5071851851851852, test acc: 0.47979166666666667
+2024-08-10 23:38:40,180 - root - INFO - train ap: 0.4904017804162835, val ap: 0.5248219998209485
+2024-08-10 23:38:40,181 - root - INFO - start 12 epoch
+2024-08-10 23:38:49,224 - root - INFO - epoch: 12 took 9.04s
+2024-08-10 23:38:49,224 - root - INFO - epoch train mean loss: 0.6962858180205027
+2024-08-10 23:38:49,224 - root - INFO - train acc: 0.5073518518518518, test acc: 0.47916666666666663
+2024-08-10 23:38:49,225 - root - INFO - train ap: 0.5007336049457483, val ap: 0.5357181609125277
+2024-08-10 23:38:49,226 - root - INFO - start 13 epoch
+2024-08-10 23:38:58,191 - root - INFO - epoch: 13 took 8.97s
+2024-08-10 23:38:58,191 - root - INFO - epoch train mean loss: 0.6958324809869131
+2024-08-10 23:38:58,191 - root - INFO - train acc: 0.5078518518518519, test acc: 0.47916666666666663
+2024-08-10 23:38:58,191 - root - INFO - train ap: 0.5111333060492128, val ap: 0.5473949914440783
+2024-08-10 23:38:58,192 - root - INFO - start 14 epoch
+2024-08-10 23:39:07,200 - root - INFO - epoch: 14 took 9.01s
+2024-08-10 23:39:07,200 - root - INFO - epoch train mean loss: 0.6951641341050466
+2024-08-10 23:39:07,200 - root - INFO - train acc: 0.5100185185185185, test acc: 0.47916666666666663
+2024-08-10 23:39:07,200 - root - INFO - train ap: 0.5238707432985289, val ap: 0.559656787488754
+2024-08-10 23:39:07,201 - root - INFO - start 15 epoch
+2024-08-10 23:39:16,166 - root - INFO - epoch: 15 took 8.96s
+2024-08-10 23:39:16,166 - root - INFO - epoch train mean loss: 0.6953942239284515
+2024-08-10 23:39:16,166 - root - INFO - train acc: 0.5115185185185185, test acc: 0.47916666666666663
+2024-08-10 23:39:16,166 - root - INFO - train ap: 0.5359715793850016, val ap: 0.5753819292773841
+2024-08-10 23:39:16,167 - root - INFO - start 16 epoch
+2024-08-10 23:39:25,225 - root - INFO - epoch: 16 took 9.06s
+2024-08-10 23:39:25,226 - root - INFO - epoch train mean loss: 0.694767548640569
+2024-08-10 23:39:25,226 - root - INFO - train acc: 0.5196666666666667, test acc: 0.4810416666666667
+2024-08-10 23:39:25,226 - root - INFO - train ap: 0.5441025993675388, val ap: 0.5888543544876712
+2024-08-10 23:39:25,227 - root - INFO - start 17 epoch
+2024-08-10 23:39:34,226 - root - INFO - epoch: 17 took 9.00s
+2024-08-10 23:39:34,227 - root - INFO - epoch train mean loss: 0.694156946738561
+2024-08-10 23:39:34,227 - root - INFO - train acc: 0.5222222222222223, test acc: 0.47916666666666663
+2024-08-10 23:39:34,227 - root - INFO - train ap: 0.5636869550135707, val ap: 0.611614232595069
+2024-08-10 23:39:34,228 - root - INFO - start 18 epoch
+2024-08-10 23:39:43,244 - root - INFO - epoch: 18 took 9.02s
+2024-08-10 23:39:43,244 - root - INFO - epoch train mean loss: 0.6938168485959371
+2024-08-10 23:39:43,244 - root - INFO - train acc: 0.5105185185185185, test acc: 0.47916666666666663
+2024-08-10 23:39:43,244 - root - INFO - train ap: 0.5932788238531802, val ap: 0.6272718119046632
+2024-08-10 23:39:43,245 - root - INFO - start 19 epoch
+2024-08-10 23:39:52,240 - root - INFO - epoch: 19 took 8.99s
+2024-08-10 23:39:52,240 - root - INFO - epoch train mean loss: 0.693092002471288
+2024-08-10 23:39:52,240 - root - INFO - train acc: 0.5120185185185185, test acc: 0.47916666666666663
+2024-08-10 23:39:52,240 - root - INFO - train ap: 0.6137662791905478, val ap: 0.641464848603146
+2024-08-10 23:39:52,241 - root - INFO - start 20 epoch
+2024-08-10 23:40:01,532 - root - INFO - epoch: 20 took 9.29s
+2024-08-10 23:40:01,532 - root - INFO - epoch train mean loss: 0.6927543997764587
+2024-08-10 23:40:01,532 - root - INFO - train acc: 0.5151851851851851, test acc: 0.47916666666666663
+2024-08-10 23:40:01,532 - root - INFO - train ap: 0.6321744010117438, val ap: 0.658853903482919
+2024-08-10 23:40:01,533 - root - INFO - start 21 epoch
+2024-08-10 23:40:10,497 - root - INFO - epoch: 21 took 8.96s
+2024-08-10 23:40:10,497 - root - INFO - epoch train mean loss: 0.691904854774475
+2024-08-10 23:40:10,497 - root - INFO - train acc: 0.5165185185185185, test acc: 0.47916666666666663
+2024-08-10 23:40:10,497 - root - INFO - train ap: 0.6375826780551187, val ap: 0.6645735198072937
+2024-08-10 23:40:10,498 - root - INFO - start 22 epoch
+2024-08-10 23:40:19,497 - root - INFO - epoch: 22 took 9.00s
+2024-08-10 23:40:19,497 - root - INFO - epoch train mean loss: 0.6917262852191925
+2024-08-10 23:40:19,497 - root - INFO - train acc: 0.5153518518518518, test acc: 0.48104166666666665
+2024-08-10 23:40:19,497 - root - INFO - train ap: 0.6437416476833003, val ap: 0.6706565535755181
+2024-08-10 23:40:19,498 - root - INFO - start 23 epoch
+2024-08-10 23:40:28,463 - root - INFO - epoch: 23 took 8.97s
+2024-08-10 23:40:28,464 - root - INFO - epoch train mean loss: 0.6909919460614522
+2024-08-10 23:40:28,464 - root - INFO - train acc: 0.5185185185185185, test acc: 0.47916666666666663
+2024-08-10 23:40:28,464 - root - INFO - train ap: 0.6519085254537244, val ap: 0.6777013532189228
+2024-08-10 23:40:28,465 - root - INFO - start 24 epoch
+2024-08-10 23:40:37,480 - root - INFO - epoch: 24 took 9.01s
+2024-08-10 23:40:37,480 - root - INFO - epoch train mean loss: 0.6917327046394348
+2024-08-10 23:40:37,480 - root - INFO - train acc: 0.5175185185185185, test acc: 0.4816666666666667
+2024-08-10 23:40:37,480 - root - INFO - train ap: 0.6662202494768769, val ap: 0.6916594304732111
+2024-08-10 23:40:37,481 - root - INFO - start 25 epoch
+2024-08-10 23:40:46,497 - root - INFO - epoch: 25 took 9.02s
+2024-08-10 23:40:46,497 - root - INFO - epoch train mean loss: 0.6898979524771373
+2024-08-10 23:40:46,497 - root - INFO - train acc: 0.5629814814814814, test acc: 0.5448958333333334
+2024-08-10 23:40:46,497 - root - INFO - train ap: 0.6915263520021723, val ap: 0.7143532383716433
+2024-08-10 23:40:46,498 - root - INFO - start 26 epoch
+2024-08-10 23:40:55,534 - root - INFO - epoch: 26 took 9.04s
+2024-08-10 23:40:55,534 - root - INFO - epoch train mean loss: 0.6876133382320404
+2024-08-10 23:40:55,534 - root - INFO - train acc: 0.586962962962963, test acc: 0.6146875
+2024-08-10 23:40:55,534 - root - INFO - train ap: 0.7106379763114467, val ap: 0.7350239137924547
+2024-08-10 23:40:55,535 - root - INFO - start 27 epoch
+2024-08-10 23:41:04,537 - root - INFO - epoch: 27 took 9.00s
+2024-08-10 23:41:04,537 - root - INFO - epoch train mean loss: 0.6856624742348989
+2024-08-10 23:41:04,537 - root - INFO - train acc: 0.5946111111111111, test acc: 0.5957291666666666
+2024-08-10 23:41:04,537 - root - INFO - train ap: 0.7236475465111655, val ap: 0.7507235057147323
+2024-08-10 23:41:04,538 - root - INFO - start 28 epoch
+2024-08-10 23:41:13,551 - root - INFO - epoch: 28 took 9.01s
+2024-08-10 23:41:13,551 - root - INFO - epoch train mean loss: 0.685255084435145
+2024-08-10 23:41:13,551 - root - INFO - train acc: 0.6195370370370371, test acc: 0.5856250000000001
+2024-08-10 23:41:13,551 - root - INFO - train ap: 0.7338301645735202, val ap: 0.7606160504162583
+2024-08-10 23:41:13,553 - root - INFO - start 29 epoch
+2024-08-10 23:41:22,556 - root - INFO - epoch: 29 took 9.00s
+2024-08-10 23:41:22,556 - root - INFO - epoch train mean loss: 0.683318946758906
+2024-08-10 23:41:22,556 - root - INFO - train acc: 0.6355185185185184, test acc: 0.6179166666666667
+2024-08-10 23:41:22,556 - root - INFO - train ap: 0.7453387518850576, val ap: 0.7713648303525257
+2024-08-10 23:41:22,558 - root - INFO - start 30 epoch
+2024-08-10 23:41:31,630 - root - INFO - epoch: 30 took 9.07s
+2024-08-10 23:41:31,631 - root - INFO - epoch train mean loss: 0.6830511868000031
+2024-08-10 23:41:31,631 - root - INFO - train acc: 0.5591481481481481, test acc: 0.546875
+2024-08-10 23:41:31,631 - root - INFO - train ap: 0.7523134222849283, val ap: 0.7817959467177928
+2024-08-10 23:41:31,632 - root - INFO - start 31 epoch
+2024-08-10 23:41:40,661 - root - INFO - epoch: 31 took 9.03s
+2024-08-10 23:41:40,661 - root - INFO - epoch train mean loss: 0.6819964349269867
+2024-08-10 23:41:40,661 - root - INFO - train acc: 0.533351851851852, test acc: 0.4847916666666666
+2024-08-10 23:41:40,661 - root - INFO - train ap: 0.7583869559674378, val ap: 0.788568057939898
+2024-08-10 23:41:40,662 - root - INFO - start 32 epoch
+2024-08-10 23:41:49,718 - root - INFO - epoch: 32 took 9.06s
+2024-08-10 23:41:49,718 - root - INFO - epoch train mean loss: 0.6781208117802938
+2024-08-10 23:41:49,718 - root - INFO - train acc: 0.6335925925925925, test acc: 0.6086458333333333
+2024-08-10 23:41:49,718 - root - INFO - train ap: 0.7646570631062934, val ap: 0.7950312339281478
+2024-08-10 23:41:49,719 - root - INFO - start 33 epoch
+2024-08-10 23:41:58,709 - root - INFO - epoch: 33 took 8.99s
+2024-08-10 23:41:58,709 - root - INFO - epoch train mean loss: 0.6764772792657217
+2024-08-10 23:41:58,709 - root - INFO - train acc: 0.6560925925925927, test acc: 0.6719791666666666
+2024-08-10 23:41:58,709 - root - INFO - train ap: 0.7755940030690023, val ap: 0.8033340794291088
+2024-08-10 23:41:58,710 - root - INFO - start 34 epoch
+2024-08-10 23:42:07,711 - root - INFO - epoch: 34 took 9.00s
+2024-08-10 23:42:07,711 - root - INFO - epoch train mean loss: 0.673651377360026
+2024-08-10 23:42:07,711 - root - INFO - train acc: 0.621037037037037, test acc: 0.6378125
+2024-08-10 23:42:07,711 - root - INFO - train ap: 0.7855496902722195, val ap: 0.8145801718878801
+2024-08-10 23:42:07,713 - root - INFO - start 35 epoch
+2024-08-10 23:42:16,726 - root - INFO - epoch: 35 took 9.01s
+2024-08-10 23:42:16,726 - root - INFO - epoch train mean loss: 0.6709321101506551
+2024-08-10 23:42:16,726 - root - INFO - train acc: 0.640148148148148, test acc: 0.5741666666666666
+2024-08-10 23:42:16,726 - root - INFO - train ap: 0.7934422046169622, val ap: 0.8254444766283859
+2024-08-10 23:42:16,727 - root - INFO - start 36 epoch
+2024-08-10 23:42:25,747 - root - INFO - epoch: 36 took 9.02s
+2024-08-10 23:42:25,747 - root - INFO - epoch train mean loss: 0.6661476353804271
+2024-08-10 23:42:25,747 - root - INFO - train acc: 0.6820370370370372, test acc: 0.6615624999999999
+2024-08-10 23:42:25,747 - root - INFO - train ap: 0.8030118269469616, val ap: 0.8309049879810555
+2024-08-10 23:42:25,748 - root - INFO - start 37 epoch
+2024-08-10 23:42:34,783 - root - INFO - epoch: 37 took 9.03s
+2024-08-10 23:42:34,783 - root - INFO - epoch train mean loss: 0.6607979834079742
+2024-08-10 23:42:34,783 - root - INFO - train acc: 0.6658518518518519, test acc: 0.7028125
+2024-08-10 23:42:34,783 - root - INFO - train ap: 0.8140740364831045, val ap: 0.8375688737322283
+2024-08-10 23:42:34,784 - root - INFO - start 38 epoch
+2024-08-10 23:42:43,767 - root - INFO - epoch: 38 took 8.98s
+2024-08-10 23:42:43,767 - root - INFO - epoch train mean loss: 0.6562382916609446
+2024-08-10 23:42:43,767 - root - INFO - train acc: 0.6854814814814815, test acc: 0.7079166666666666
+2024-08-10 23:42:43,767 - root - INFO - train ap: 0.8220887163781274, val ap: 0.8467965562237738
+2024-08-10 23:42:43,768 - root - INFO - start 39 epoch
+2024-08-10 23:42:52,792 - root - INFO - epoch: 39 took 9.02s
+2024-08-10 23:42:52,792 - root - INFO - epoch train mean loss: 0.6509636600812276
+2024-08-10 23:42:52,793 - root - INFO - train acc: 0.7213148148148146, test acc: 0.7065625
+2024-08-10 23:42:52,793 - root - INFO - train ap: 0.8312073736130564, val ap: 0.8522410461272021
+2024-08-10 23:42:52,794 - root - INFO - start 40 epoch
+2024-08-10 23:43:01,887 - root - INFO - epoch: 40 took 9.09s
+2024-08-10 23:43:01,887 - root - INFO - epoch train mean loss: 0.6415993253389994
+2024-08-10 23:43:01,887 - root - INFO - train acc: 0.7036851851851853, test acc: 0.748125
+2024-08-10 23:43:01,887 - root - INFO - train ap: 0.8418860843187576, val ap: 0.8599321527066133
+2024-08-10 23:43:01,888 - root - INFO - start 41 epoch
+2024-08-10 23:43:10,857 - root - INFO - epoch: 41 took 8.97s
+2024-08-10 23:43:10,857 - root - INFO - epoch train mean loss: 0.6331473767757416
+2024-08-10 23:43:10,857 - root - INFO - train acc: 0.7439074074074074, test acc: 0.7603125
+2024-08-10 23:43:10,857 - root - INFO - train ap: 0.8498518615950171, val ap: 0.8660157325085663
+2024-08-10 23:43:10,858 - root - INFO - start 42 epoch
+2024-08-10 23:43:19,864 - root - INFO - epoch: 42 took 9.01s
+2024-08-10 23:43:19,864 - root - INFO - epoch train mean loss: 0.6204742232958476
+2024-08-10 23:43:19,864 - root - INFO - train acc: 0.7617037037037037, test acc: 0.7586458333333334
+2024-08-10 23:43:19,864 - root - INFO - train ap: 0.8563365157479297, val ap: 0.8707368031218259
+2024-08-10 23:43:19,865 - root - INFO - start 43 epoch
+2024-08-10 23:43:28,863 - root - INFO - epoch: 43 took 9.00s
+2024-08-10 23:43:28,863 - root - INFO - epoch train mean loss: 0.6060634275277456
+2024-08-10 23:43:28,863 - root - INFO - train acc: 0.758148148148148, test acc: 0.7782291666666666
+2024-08-10 23:43:28,863 - root - INFO - train ap: 0.8679366382113834, val ap: 0.8794191270851395
+2024-08-10 23:43:28,864 - root - INFO - start 44 epoch
+2024-08-10 23:43:37,871 - root - INFO - epoch: 44 took 9.01s
+2024-08-10 23:43:37,871 - root - INFO - epoch train mean loss: 0.5946524480978648
+2024-08-10 23:43:37,871 - root - INFO - train acc: 0.7959074074074074, test acc: 0.7986458333333333
+2024-08-10 23:43:37,871 - root - INFO - train ap: 0.8796464027333308, val ap: 0.8862974510572368
+2024-08-10 23:43:37,872 - root - INFO - start 45 epoch
+2024-08-10 23:43:46,877 - root - INFO - epoch: 45 took 9.00s
+2024-08-10 23:43:46,877 - root - INFO - epoch train mean loss: 0.5684060136477153
+2024-08-10 23:43:46,877 - root - INFO - train acc: 0.8081296296296295, test acc: 0.8093750000000001
+2024-08-10 23:43:46,877 - root - INFO - train ap: 0.8892713814873463, val ap: 0.8912981723683933
+2024-08-10 23:43:46,878 - root - INFO - start 46 epoch
+2024-08-10 23:43:55,920 - root - INFO - epoch: 46 took 9.04s
+2024-08-10 23:43:55,920 - root - INFO - epoch train mean loss: 0.5367156793673833
+2024-08-10 23:43:55,920 - root - INFO - train acc: 0.8180925925925926, test acc: 0.82375
+2024-08-10 23:43:55,920 - root - INFO - train ap: 0.8993132855427441, val ap: 0.8983550820576891
+2024-08-10 23:43:55,921 - root - INFO - start 47 epoch
+2024-08-10 23:44:04,924 - root - INFO - epoch: 47 took 9.00s
+2024-08-10 23:44:04,924 - root - INFO - epoch train mean loss: 0.5146649926900864
+2024-08-10 23:44:04,924 - root - INFO - train acc: 0.8381296296296296, test acc: 0.8395833333333333
+2024-08-10 23:44:04,924 - root - INFO - train ap: 0.906620823367725, val ap: 0.9054648072919075
+2024-08-10 23:44:04,925 - root - INFO - start 48 epoch
+2024-08-10 23:44:13,976 - root - INFO - epoch: 48 took 9.05s
+2024-08-10 23:44:13,977 - root - INFO - epoch train mean loss: 0.47446675797303517
+2024-08-10 23:44:13,977 - root - INFO - train acc: 0.8544629629629629, test acc: 0.8503125
+2024-08-10 23:44:13,977 - root - INFO - train ap: 0.9133319217249956, val ap: 0.9118673780275037
+2024-08-10 23:44:13,978 - root - INFO - start 49 epoch
+2024-08-10 23:44:23,048 - root - INFO - epoch: 49 took 9.07s
+2024-08-10 23:44:23,048 - root - INFO - epoch train mean loss: 0.44391100108623505
+2024-08-10 23:44:23,048 - root - INFO - train acc: 0.8656296296296296, test acc: 0.8634375
+2024-08-10 23:44:23,048 - root - INFO - train ap: 0.9208332447614279, val ap: 0.9209250365553605
+2024-08-10 23:44:23,049 - root - INFO - start 50 epoch
+2024-08-10 23:44:32,078 - root - INFO - epoch: 50 took 9.03s
+2024-08-10 23:44:32,078 - root - INFO - epoch train mean loss: 0.41710113485654193
+2024-08-10 23:44:32,078 - root - INFO - train acc: 0.8736296296296296, test acc: 0.8728125
+2024-08-10 23:44:32,078 - root - INFO - train ap: 0.9266691132744416, val ap: 0.9293712301143358
+2024-08-10 23:44:32,079 - root - INFO - start 51 epoch
+2024-08-10 23:44:41,079 - root - INFO - epoch: 51 took 9.00s
+2024-08-10 23:44:41,079 - root - INFO - epoch train mean loss: 0.3977080593506495
+2024-08-10 23:44:41,079 - root - INFO - train acc: 0.8795925925925926, test acc: 0.8797916666666667
+2024-08-10 23:44:41,079 - root - INFO - train ap: 0.9309540223792949, val ap: 0.9350867308617901
+2024-08-10 23:44:41,081 - root - INFO - start 52 epoch
+2024-08-10 23:44:50,139 - root - INFO - epoch: 52 took 9.06s
+2024-08-10 23:44:50,140 - root - INFO - epoch train mean loss: 0.3732200105985006
+2024-08-10 23:44:50,140 - root - INFO - train acc: 0.8879259259259259, test acc: 0.8861458333333334
+2024-08-10 23:44:50,140 - root - INFO - train ap: 0.9345577776112932, val ap: 0.9399183945671256
+2024-08-10 23:44:50,141 - root - INFO - start 53 epoch
+2024-08-10 23:44:59,143 - root - INFO - epoch: 53 took 9.00s
+2024-08-10 23:44:59,144 - root - INFO - epoch train mean loss: 0.3551442210872968
+2024-08-10 23:44:59,144 - root - INFO - train acc: 0.8920185185185187, test acc: 0.8879166666666667
+2024-08-10 23:44:59,144 - root - INFO - train ap: 0.9379476267874748, val ap: 0.9440267584248702
+2024-08-10 23:44:59,145 - root - INFO - start 54 epoch
+2024-08-10 23:45:08,178 - root - INFO - epoch: 54 took 9.03s
+2024-08-10 23:45:08,178 - root - INFO - epoch train mean loss: 0.3385791480541229
+2024-08-10 23:45:08,178 - root - INFO - train acc: 0.8946481481481482, test acc: 0.8923958333333333
+2024-08-10 23:45:08,178 - root - INFO - train ap: 0.9407993721170852, val ap: 0.9466113111242467
+2024-08-10 23:45:08,179 - root - INFO - start 55 epoch
+2024-08-10 23:45:17,271 - root - INFO - epoch: 55 took 9.09s
+2024-08-10 23:45:17,271 - root - INFO - epoch train mean loss: 0.32956991295019783
+2024-08-10 23:45:17,271 - root - INFO - train acc: 0.9004444444444445, test acc: 0.903125
+2024-08-10 23:45:17,271 - root - INFO - train ap: 0.9440010742382678, val ap: 0.9463005771510262
+2024-08-10 23:45:17,273 - root - INFO - start 56 epoch
+2024-08-10 23:45:26,292 - root - INFO - epoch: 56 took 9.02s
+2024-08-10 23:45:26,292 - root - INFO - epoch train mean loss: 0.31740834216276803
+2024-08-10 23:45:26,292 - root - INFO - train acc: 0.9057407407407408, test acc: 0.904375
+2024-08-10 23:45:26,292 - root - INFO - train ap: 0.9459607023563081, val ap: 0.9455521573718084
+2024-08-10 23:45:26,293 - root - INFO - start 57 epoch
+2024-08-10 23:45:35,271 - root - INFO - epoch: 57 took 8.98s
+2024-08-10 23:45:35,271 - root - INFO - epoch train mean loss: 0.30867732763290406
+2024-08-10 23:45:35,271 - root - INFO - train acc: 0.9114074074074074, test acc: 0.9094791666666667
+2024-08-10 23:45:35,271 - root - INFO - train ap: 0.9477239754272259, val ap: 0.9466727787565832
+2024-08-10 23:45:35,272 - root - INFO - start 58 epoch
+2024-08-10 23:45:44,291 - root - INFO - epoch: 58 took 9.02s
+2024-08-10 23:45:44,291 - root - INFO - epoch train mean loss: 0.300238536298275
+2024-08-10 23:45:44,292 - root - INFO - train acc: 0.9125740740740741, test acc: 0.9133333333333333
+2024-08-10 23:45:44,292 - root - INFO - train ap: 0.949250717925941, val ap: 0.948574239871113
+2024-08-10 23:45:44,293 - root - INFO - start 59 epoch
+2024-08-10 23:45:53,407 - root - INFO - epoch: 59 took 9.11s
+2024-08-10 23:45:53,407 - root - INFO - epoch train mean loss: 0.2925711755951246
+2024-08-10 23:45:53,407 - root - INFO - train acc: 0.913111111111111, test acc: 0.9139583333333334
+2024-08-10 23:45:53,407 - root - INFO - train ap: 0.9505221874673146, val ap: 0.9505853888371126
+2024-08-10 23:45:53,408 - root - INFO - start 60 epoch
+2024-08-10 23:46:02,423 - root - INFO - epoch: 60 took 9.02s
+2024-08-10 23:46:02,423 - root - INFO - epoch train mean loss: 0.2858062649766604
+2024-08-10 23:46:02,423 - root - INFO - train acc: 0.915111111111111, test acc: 0.9152083333333334
+2024-08-10 23:46:02,423 - root - INFO - train ap: 0.9519044578305659, val ap: 0.9518809157507668
+2024-08-10 23:46:02,424 - root - INFO - start 61 epoch
+2024-08-10 23:46:11,466 - root - INFO - epoch: 61 took 9.04s
+2024-08-10 23:46:11,466 - root - INFO - epoch train mean loss: 0.27625331779321033
+2024-08-10 23:46:11,466 - root - INFO - train acc: 0.9190740740740739, test acc: 0.9164583333333334
+2024-08-10 23:46:11,466 - root - INFO - train ap: 0.9531890513837988, val ap: 0.9523729837559812
+2024-08-10 23:46:11,468 - root - INFO - start 62 epoch
+2024-08-10 23:46:20,487 - root - INFO - epoch: 62 took 9.02s
+2024-08-10 23:46:20,488 - root - INFO - epoch train mean loss: 0.26924702475468315
+2024-08-10 23:46:20,488 - root - INFO - train acc: 0.9205740740740741, test acc: 0.9164583333333334
+2024-08-10 23:46:20,488 - root - INFO - train ap: 0.9543851272131405, val ap: 0.9530181762857384
+2024-08-10 23:46:20,489 - root - INFO - start 63 epoch
+2024-08-10 23:46:29,459 - root - INFO - epoch: 63 took 8.97s
+2024-08-10 23:46:29,459 - root - INFO - epoch train mean loss: 0.2650320718685786
+2024-08-10 23:46:29,459 - root - INFO - train acc: 0.9236111111111112, test acc: 0.9183333333333334
+2024-08-10 23:46:29,459 - root - INFO - train ap: 0.9553272677398235, val ap: 0.953302755231663
+2024-08-10 23:46:29,460 - root - INFO - start 64 epoch
+2024-08-10 23:46:38,462 - root - INFO - epoch: 64 took 9.00s
+2024-08-10 23:46:38,462 - root - INFO - epoch train mean loss: 0.2532242769996325
+2024-08-10 23:46:38,462 - root - INFO - train acc: 0.9227777777777777, test acc: 0.9183333333333333
+2024-08-10 23:46:38,462 - root - INFO - train ap: 0.9562564026888343, val ap: 0.9539835957209148
+2024-08-10 23:46:38,464 - root - INFO - start 65 epoch
+2024-08-10 23:46:47,570 - root - INFO - epoch: 65 took 9.11s
+2024-08-10 23:46:47,570 - root - INFO - epoch train mean loss: 0.2529611200094223
+2024-08-10 23:46:47,570 - root - INFO - train acc: 0.9214444444444445, test acc: 0.9183333333333333
+2024-08-10 23:46:47,570 - root - INFO - train ap: 0.9567372767775114, val ap: 0.95406077834374
+2024-08-10 23:46:47,571 - root - INFO - start 66 epoch
+2024-08-10 23:46:56,570 - root - INFO - epoch: 66 took 9.00s
+2024-08-10 23:46:56,570 - root - INFO - epoch train mean loss: 0.24795193721850714
+2024-08-10 23:46:56,570 - root - INFO - train acc: 0.9247777777777778, test acc: 0.9265625
+2024-08-10 23:46:56,570 - root - INFO - train ap: 0.9574437929085516, val ap: 0.9547414785576749
+2024-08-10 23:46:56,571 - root - INFO - start 67 epoch
+2024-08-10 23:47:05,556 - root - INFO - epoch: 67 took 8.99s
+2024-08-10 23:47:05,556 - root - INFO - epoch train mean loss: 0.24365145588914552
+2024-08-10 23:47:05,556 - root - INFO - train acc: 0.9232777777777778, test acc: 0.9259375000000001
+2024-08-10 23:47:05,557 - root - INFO - train ap: 0.9582940201961659, val ap: 0.9548026415783093
+2024-08-10 23:47:05,558 - root - INFO - start 68 epoch
+2024-08-10 23:47:14,525 - root - INFO - epoch: 68 took 8.97s
+2024-08-10 23:47:14,525 - root - INFO - epoch train mean loss: 0.24125372966130573
+2024-08-10 23:47:14,525 - root - INFO - train acc: 0.9276111111111109, test acc: 0.9310416666666667
+2024-08-10 23:47:14,525 - root - INFO - train ap: 0.9590868770279031, val ap: 0.9550172390242055
+2024-08-10 23:47:14,526 - root - INFO - start 69 epoch
+2024-08-10 23:47:23,604 - root - INFO - epoch: 69 took 9.08s
+2024-08-10 23:47:23,604 - root - INFO - epoch train mean loss: 0.23242195720473927
+2024-08-10 23:47:23,604 - root - INFO - train acc: 0.9276111111111108, test acc: 0.9271875
+2024-08-10 23:47:23,604 - root - INFO - train ap: 0.960049862890864, val ap: 0.9554341467007001
+2024-08-10 23:47:23,605 - root - INFO - start 70 epoch
+2024-08-10 23:47:32,590 - root - INFO - epoch: 70 took 8.99s
+2024-08-10 23:47:32,590 - root - INFO - epoch train mean loss: 0.2290223424633344
+2024-08-10 23:47:32,590 - root - INFO - train acc: 0.9304444444444445, test acc: 0.9310416666666667
+2024-08-10 23:47:32,590 - root - INFO - train ap: 0.9607570980833279, val ap: 0.955997209810205
+2024-08-10 23:47:32,591 - root - INFO - start 71 epoch
+2024-08-10 23:47:41,609 - root - INFO - epoch: 71 took 9.02s
+2024-08-10 23:47:41,610 - root - INFO - epoch train mean loss: 0.22383367121219636
+2024-08-10 23:47:41,610 - root - INFO - train acc: 0.9314444444444444, test acc: 0.9342708333333334
+2024-08-10 23:47:41,610 - root - INFO - train ap: 0.9612503982263085, val ap: 0.9564545807068764
+2024-08-10 23:47:41,611 - root - INFO - start 72 epoch
+2024-08-10 23:47:50,628 - root - INFO - epoch: 72 took 9.02s
+2024-08-10 23:47:50,628 - root - INFO - epoch train mean loss: 0.22749511847893397
+2024-08-10 23:47:50,628 - root - INFO - train acc: 0.9329444444444444, test acc: 0.9348958333333334
+2024-08-10 23:47:50,628 - root - INFO - train ap: 0.9616549135616447, val ap: 0.9574202869771731
+2024-08-10 23:47:50,629 - root - INFO - start 73 epoch
+2024-08-10 23:47:59,619 - root - INFO - epoch: 73 took 8.99s
+2024-08-10 23:47:59,619 - root - INFO - epoch train mean loss: 0.21770668675502142
+2024-08-10 23:47:59,619 - root - INFO - train acc: 0.9327777777777778, test acc: 0.9342708333333334
+2024-08-10 23:47:59,619 - root - INFO - train ap: 0.9625924895765267, val ap: 0.9581223011769329
+2024-08-10 23:47:59,620 - root - INFO - start 74 epoch
+2024-08-10 23:48:08,657 - root - INFO - epoch: 74 took 9.04s
+2024-08-10 23:48:08,657 - root - INFO - epoch train mean loss: 0.2142909919222196
+2024-08-10 23:48:08,657 - root - INFO - train acc: 0.9350740740740741, test acc: 0.9361458333333333
+2024-08-10 23:48:08,657 - root - INFO - train ap: 0.9631527920696459, val ap: 0.9586044003110874
+2024-08-10 23:48:08,658 - root - INFO - start 75 epoch
+2024-08-10 23:48:17,707 - root - INFO - epoch: 75 took 9.05s
+2024-08-10 23:48:17,707 - root - INFO - epoch train mean loss: 0.21349777082602184
+2024-08-10 23:48:17,707 - root - INFO - train acc: 0.9351111111111111, test acc: 0.9355208333333334
+2024-08-10 23:48:17,707 - root - INFO - train ap: 0.9637616040655121, val ap: 0.959136809534405
+2024-08-10 23:48:17,708 - root - INFO - start 76 epoch
+2024-08-10 23:48:26,691 - root - INFO - epoch: 76 took 8.98s
+2024-08-10 23:48:26,691 - root - INFO - epoch train mean loss: 0.21634605328241985
+2024-08-10 23:48:26,691 - root - INFO - train acc: 0.9344444444444444, test acc: 0.9361458333333333
+2024-08-10 23:48:26,691 - root - INFO - train ap: 0.964234666531038, val ap: 0.959517936660044
+2024-08-10 23:48:26,692 - root - INFO - start 77 epoch
+2024-08-10 23:48:35,771 - root - INFO - epoch: 77 took 9.08s
+2024-08-10 23:48:35,772 - root - INFO - epoch train mean loss: 0.2141112357378006
+2024-08-10 23:48:35,772 - root - INFO - train acc: 0.9364444444444444, test acc: 0.9373958333333333
+2024-08-10 23:48:35,772 - root - INFO - train ap: 0.9648232668404614, val ap: 0.9602426944092126
+2024-08-10 23:48:35,773 - root - INFO - start 78 epoch
+2024-08-10 23:48:44,873 - root - INFO - epoch: 78 took 9.10s
+2024-08-10 23:48:44,873 - root - INFO - epoch train mean loss: 0.21042462587356567
+2024-08-10 23:48:44,873 - root - INFO - train acc: 0.9374444444444444, test acc: 0.9380208333333333
+2024-08-10 23:48:44,873 - root - INFO - train ap: 0.9652592866097996, val ap: 0.9605678752619501
+2024-08-10 23:48:44,875 - root - INFO - start 79 epoch
+2024-08-10 23:48:53,912 - root - INFO - epoch: 79 took 9.04s
+2024-08-10 23:48:53,912 - root - INFO - epoch train mean loss: 0.203620541592439
+2024-08-10 23:48:53,912 - root - INFO - train acc: 0.9391111111111111, test acc: 0.9392708333333333
+2024-08-10 23:48:53,912 - root - INFO - train ap: 0.9656693656281937, val ap: 0.960974192037327
+2024-08-10 23:48:53,914 - root - INFO - start 80 epoch
+2024-08-10 23:49:02,985 - root - INFO - epoch: 80 took 9.07s
+2024-08-10 23:49:02,985 - root - INFO - epoch train mean loss: 0.20555082907279332
+2024-08-10 23:49:02,985 - root - INFO - train acc: 0.9391111111111111, test acc: 0.9411458333333333
+2024-08-10 23:49:02,985 - root - INFO - train ap: 0.9663126097435275, val ap: 0.9612638387782708
+2024-08-10 23:49:02,986 - root - INFO - start 81 epoch
+2024-08-10 23:49:12,036 - root - INFO - epoch: 81 took 9.05s
+2024-08-10 23:49:12,036 - root - INFO - epoch train mean loss: 0.19745808988809585
+2024-08-10 23:49:12,036 - root - INFO - train acc: 0.9396111111111111, test acc: 0.9423958333333333
+2024-08-10 23:49:12,036 - root - INFO - train ap: 0.9666229852472352, val ap: 0.9613264338386633
+2024-08-10 23:49:12,037 - root - INFO - start 82 epoch
+2024-08-10 23:49:21,080 - root - INFO - epoch: 82 took 9.04s
+2024-08-10 23:49:21,081 - root - INFO - epoch train mean loss: 0.20166705946127575
+2024-08-10 23:49:21,081 - root - INFO - train acc: 0.9402777777777779, test acc: 0.9423958333333333
+2024-08-10 23:49:21,081 - root - INFO - train ap: 0.9670390858398289, val ap: 0.9611498146416692
+2024-08-10 23:49:21,082 - root - INFO - start 83 epoch
+2024-08-10 23:49:30,132 - root - INFO - epoch: 83 took 9.05s
+2024-08-10 23:49:30,132 - root - INFO - epoch train mean loss: 0.19357036302487055
+2024-08-10 23:49:30,132 - root - INFO - train acc: 0.9407777777777777, test acc: 0.9417708333333332
+2024-08-10 23:49:30,132 - root - INFO - train ap: 0.9673330016454191, val ap: 0.9612174802027771
+2024-08-10 23:49:30,133 - root - INFO - start 84 epoch
+2024-08-10 23:49:39,260 - root - INFO - epoch: 84 took 9.13s
+2024-08-10 23:49:39,260 - root - INFO - epoch train mean loss: 0.19499330917994182
+2024-08-10 23:49:39,260 - root - INFO - train acc: 0.9412777777777777, test acc: 0.9423958333333333
+2024-08-10 23:49:39,260 - root - INFO - train ap: 0.9674914173360104, val ap: 0.9615286237167894
+2024-08-10 23:49:39,261 - root - INFO - start 85 epoch
+2024-08-10 23:49:48,316 - root - INFO - epoch: 85 took 9.05s
+2024-08-10 23:49:48,316 - root - INFO - epoch train mean loss: 0.1902149779101213
+2024-08-10 23:49:48,316 - root - INFO - train acc: 0.9424444444444443, test acc: 0.9430208333333332
+2024-08-10 23:49:48,316 - root - INFO - train ap: 0.9679216168718561, val ap: 0.9619092349849088
+2024-08-10 23:49:48,317 - root - INFO - start 86 epoch
+2024-08-10 23:49:57,351 - root - INFO - epoch: 86 took 9.03s
+2024-08-10 23:49:57,351 - root - INFO - epoch train mean loss: 0.19059120938181878
+2024-08-10 23:49:57,351 - root - INFO - train acc: 0.9407777777777776, test acc: 0.9436458333333333
+2024-08-10 23:49:57,351 - root - INFO - train ap: 0.9681169557598774, val ap: 0.9618560164590855
+2024-08-10 23:49:57,353 - root - INFO - start 87 epoch
+2024-08-10 23:50:06,428 - root - INFO - epoch: 87 took 9.08s
+2024-08-10 23:50:06,428 - root - INFO - epoch train mean loss: 0.18684415593743325
+2024-08-10 23:50:06,428 - root - INFO - train acc: 0.9414444444444444, test acc: 0.9436458333333333
+2024-08-10 23:50:06,428 - root - INFO - train ap: 0.9683628839241168, val ap: 0.9622609498424721
+2024-08-10 23:50:06,429 - root - INFO - start 88 epoch
+2024-08-10 23:50:15,617 - root - INFO - epoch: 88 took 9.19s
+2024-08-10 23:50:15,617 - root - INFO - epoch train mean loss: 0.18709378987550734
+2024-08-10 23:50:15,617 - root - INFO - train acc: 0.9429444444444444, test acc: 0.9436458333333333
+2024-08-10 23:50:15,617 - root - INFO - train ap: 0.9685986065507549, val ap: 0.9628911006548923
+2024-08-10 23:50:15,618 - root - INFO - start 89 epoch
+2024-08-10 23:50:24,643 - root - INFO - epoch: 89 took 9.03s
+2024-08-10 23:50:24,644 - root - INFO - epoch train mean loss: 0.18479188134272892
+2024-08-10 23:50:24,644 - root - INFO - train acc: 0.9427777777777777, test acc: 0.9436458333333333
+2024-08-10 23:50:24,644 - root - INFO - train ap: 0.9688203436115325, val ap: 0.9629772032649573
+2024-08-10 23:50:24,645 - root - INFO - start 90 epoch
+2024-08-10 23:50:33,684 - root - INFO - epoch: 90 took 9.04s
+2024-08-10 23:50:33,684 - root - INFO - epoch train mean loss: 0.18050032009681066
+2024-08-10 23:50:33,684 - root - INFO - train acc: 0.9432777777777778, test acc: 0.9448958333333333
+2024-08-10 23:50:33,684 - root - INFO - train ap: 0.9689118689648153, val ap: 0.9633291552861405
+2024-08-10 23:50:33,685 - root - INFO - start 91 epoch
+2024-08-10 23:50:42,760 - root - INFO - epoch: 91 took 9.07s
+2024-08-10 23:50:42,760 - root - INFO - epoch train mean loss: 0.18250079651673634
+2024-08-10 23:50:42,760 - root - INFO - train acc: 0.9437777777777776, test acc: 0.9442708333333333
+2024-08-10 23:50:42,760 - root - INFO - train ap: 0.9691660741064249, val ap: 0.9633860590186614
+2024-08-10 23:50:42,761 - root - INFO - start 92 epoch
+2024-08-10 23:50:51,829 - root - INFO - epoch: 92 took 9.07s
+2024-08-10 23:50:51,829 - root - INFO - epoch train mean loss: 0.17843612059950828
+2024-08-10 23:50:51,829 - root - INFO - train acc: 0.9439444444444444, test acc: 0.9448958333333333
+2024-08-10 23:50:51,829 - root - INFO - train ap: 0.969292968919175, val ap: 0.9634624501248925
+2024-08-10 23:50:51,830 - root - INFO - start 93 epoch
+2024-08-10 23:51:00,853 - root - INFO - epoch: 93 took 9.02s
+2024-08-10 23:51:00,853 - root - INFO - epoch train mean loss: 0.17746750861406327
+2024-08-10 23:51:00,853 - root - INFO - train acc: 0.9441111111111109, test acc: 0.9455208333333334
+2024-08-10 23:51:00,853 - root - INFO - train ap: 0.9693844759294343, val ap: 0.9636058470256185
+2024-08-10 23:51:00,854 - root - INFO - start 94 epoch
+2024-08-10 23:51:09,917 - root - INFO - epoch: 94 took 9.06s
+2024-08-10 23:51:09,917 - root - INFO - epoch train mean loss: 0.1796415793399016
+2024-08-10 23:51:09,918 - root - INFO - train acc: 0.9460740740740741, test acc: 0.9455208333333334
+2024-08-10 23:51:09,918 - root - INFO - train ap: 0.9695697483659197, val ap: 0.963606609622471
+2024-08-10 23:51:09,919 - root - INFO - start 95 epoch
+2024-08-10 23:51:18,949 - root - INFO - epoch: 95 took 9.03s
+2024-08-10 23:51:18,949 - root - INFO - epoch train mean loss: 0.17614884848395984
+2024-08-10 23:51:18,949 - root - INFO - train acc: 0.9477407407407407, test acc: 0.9467708333333333
+2024-08-10 23:51:18,949 - root - INFO - train ap: 0.9698243182913998, val ap: 0.9639373377231224
+2024-08-10 23:51:18,950 - root - INFO - start 96 epoch
+2024-08-10 23:51:28,007 - root - INFO - epoch: 96 took 9.06s
+2024-08-10 23:51:28,007 - root - INFO - epoch train mean loss: 0.1787692372997602
+2024-08-10 23:51:28,007 - root - INFO - train acc: 0.9447777777777777, test acc: 0.9448958333333333
+2024-08-10 23:51:28,007 - root - INFO - train ap: 0.97003794618381, val ap: 0.9636032476754022
+2024-08-10 23:51:28,008 - root - INFO - start 97 epoch
+2024-08-10 23:51:36,989 - root - INFO - epoch: 97 took 8.98s
+2024-08-10 23:51:36,989 - root - INFO - epoch train mean loss: 0.17716392502188683
+2024-08-10 23:51:36,989 - root - INFO - train acc: 0.9482407407407405, test acc: 0.9473958333333332
+2024-08-10 23:51:36,989 - root - INFO - train ap: 0.9702674198774678, val ap: 0.9640399018745731
+2024-08-10 23:51:36,990 - root - INFO - start 98 epoch
+2024-08-10 23:51:46,096 - root - INFO - epoch: 98 took 9.11s
+2024-08-10 23:51:46,096 - root - INFO - epoch train mean loss: 0.17533538043498992
+2024-08-10 23:51:46,096 - root - INFO - train acc: 0.9474074074074074, test acc: 0.9455208333333334
+2024-08-10 23:51:46,096 - root - INFO - train ap: 0.9704541369978374, val ap: 0.9641252308473965
+2024-08-10 23:51:46,097 - root - INFO - start 99 epoch
+2024-08-10 23:51:55,129 - root - INFO - epoch: 99 took 9.03s
+2024-08-10 23:51:55,129 - root - INFO - epoch train mean loss: 0.17321031043926874
+2024-08-10 23:51:55,129 - root - INFO - train acc: 0.9487407407407407, test acc: 0.9480208333333333
+2024-08-10 23:51:55,129 - root - INFO - train ap: 0.9705405631982593, val ap: 0.9642028397214877
+2024-08-10 23:51:55,131 - root - INFO - TGN model saved

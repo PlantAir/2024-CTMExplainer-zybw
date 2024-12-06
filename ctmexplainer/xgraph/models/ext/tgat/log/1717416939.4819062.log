@@ -1,0 +1,1 @@
+2024-06-03 20:15:39,481 - root - INFO - Namespace(data='reddit', bs=512, prefix='reddit', n_degree=10, n_head=2, n_epoch=10, n_layer=2, lr=0.0001, drop_out=0.1, gpu=1, device=None, node_dim=100, time_dim=100, agg_method='attn', attn_mode='prod', time='time', uniform=False)
