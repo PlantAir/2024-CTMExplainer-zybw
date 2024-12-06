@@ -178,7 +178,7 @@ def pipeline(config: DictConfig):
         batch_size=config.explainers.param.batch_size,
         lr=config.explainers.param.lr,
         debug_mode=config.explainers.debug_mode,
-        threshold_num=config.explainers.param.threshold_num
+        threshold_num=config.explainers.param.threshold_num)
 
     # run the explainer
     #  =================================================if need test ======================
