@@ -54,19 +54,6 @@ def start_multi_process(explainer, target_event_idxs, parallel_degree):
     return explain_results
 
 
-# def start_multi_process(explainer, target_event_idxs, parallel_degree):
-#     mp.set_start_method('spawn')
-#     return_dict = mp.Manager().dict()
-#     pool = mp.Pool(parallel_degree)
-#     for i, e_idx in enumerate(target_event_idxs):
-#         pool.apply_async( partial(explainer[i%parallel_degree], event_idxs=[e_idx,], return_dict=return_dict, device=i%4) )
-
-#     pool.close()
-#     pool.join()
-
-#     import ipdb; ipdb.set_trace()
-#     explain_results = [return_dict[event_idx] for event_idx in target_event_idxs ]
-#     return explain_results
 
 
 @hydra.main(config_path="config", config_name="config")
